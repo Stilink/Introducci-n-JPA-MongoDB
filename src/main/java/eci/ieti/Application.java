@@ -35,6 +35,7 @@ public class Application implements CommandLineRunner {
         customerRepository.save(new Customer("Jimmy", "Page"));
         customerRepository.save(new Customer("Freddy", "Mercury"));
         customerRepository.save(new Customer("Michael", "Jackson"));
+        customerRepository.save(new Customer("Jeymar", "Vega"));
 
         System.out.println("Customers found with findAll():");
         System.out.println("-------------------------------");
